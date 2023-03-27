@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>DHA Multan Sector V</title>
+  <title>Punjab Co-operative housing Scheme</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@latest/dist/leaflet.css" />
   <link rel="stylesheet" href="Control.FullScreen.css" />
@@ -48,7 +48,7 @@
     }).addTo(map);
 
     var layer1 = L.tileLayer('./tiles/{z}/{x}/{y}.png', {
-      attribution: 'DHA Sector V Multan',
+      attribution: 'Punjab Co-operative housing Scheme',
       maxZoom: 24,
       opacity: 1
     }).addTo(map);
@@ -69,7 +69,7 @@
     };
 
     var overlays = {
-      'DHA Multan Sector V': layer1
+      'Punjab Co-operative housing Scheme': layer1
     };
 
     L.control.layers(baseLayers, overlays).addTo(map);
